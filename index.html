@@ -1,21 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
     <title>Vercel HTML Starter</title>
     <meta
       name="description"
       content="High-performance HTML based website template."
     />
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      main {
+        padding: 10px;
+        background-color: black;
+        height: 80vh;
+      }
+      
+      .gradient {
+        background: linear-gradient(122deg, #f82b0f, #000000);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 23s ease infinite;
+    -moz-animation: AnimationName 23s ease infinite;
+    -o-animation: AnimationName 23s ease infinite;
+    animation: AnimationName 23s ease infinite;
+}
+ @-webkit-keyframes AnimationName {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+} 
+
+      section#hero {
+        padding-top: 10vh;
+        color: white;
+        font-family:"Poppins", sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        
+      }
+      section.hero h1 {
+        margin: 0;
+        font-optical-sizing: auto;
+        font-size:  xx-large;
+        font-weight: 100;
+        font-style: normal;
+
+      }
+
+      section.hero span {
+        font-weight: 300;
+        font-size: smaller;
+        font-size: normal;
+        text-transform: uppercase;
+      }
+      section#hero img {
+        margin: 50px;
+        width: 70vh;
+        border: 2px solid white;
+        border-radius: 15px;
+        -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+        -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+        box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+      }
+    </style>
   </head>
   <body>
     
+    <main class="gradient">
+      <section id="hero">
+      <h1>Hotel Mariott</h1>
+      <span>Twoje miejsce na wypoczynek</span> <BR>
+      <img src="min-724x502.jpg" alt="zdjecie">
+    </section>
+    </main>
+   
    
   </body>
 </html>
